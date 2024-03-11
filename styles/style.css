@@ -51,6 +51,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.35;
+    font-style: normal;
 }
 
 .header__contacts {
@@ -58,24 +59,10 @@
     align-items: end;
 }
 
-.phone {
+.contacts a {
     text-wrap: nowrap;
     text-decoration: none;
     border-bottom: 1px solid black;
-}
-
-.email {
-    text-wrap: nowrap;
-    text-decoration: none;
-    border-bottom: 1px solid black;
-}
-
-.address {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.35;
 }
 
 .cover {
@@ -198,6 +185,8 @@
     align-content: space-between;
     flex-grow: 1;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .card_type_film {
